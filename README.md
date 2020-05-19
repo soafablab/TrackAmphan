@@ -30,11 +30,11 @@ An Android based web-app which gives live information about the Severe Cyclonic 
 
 ### Screenshots
 - What's New
-<img src="assests/home.jpg" height=400> 
+<img src="assests/home_v1_2.jpg" height=400> 
 
 --
 
-<img src="assests/prone.jpg" height=400> <img src="assests/twitter.jpg" height=400> <img src="assests/about.jpg" height=400>
+<img src="assests/home.jpg" height=400>  <img src="assests/prone.jpg" height=400> <img src="assests/twitter.jpg" height=400> <img src="assests/about.jpg" height=400>
 
 #### Layout Details
 <img src="assests/Layout Details.png" height=400>
