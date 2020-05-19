@@ -1,5 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="component_event" id="GBB~v`$`=fS+!`C:-!~i" collapsed="true" x="30" y="-70">
+  <block type="component_event" id="q;$y8q:`K`Ep@tqB-r`y" collapsed="true" x="310" y="-50">
+    <mutation component_type="Web" is_generic="false" instance_name="Web1" event_name="GotText"></mutation>
+    <field name="COMPONENT_SELECTOR">Web1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="RG(*s:8pgNs+et{|,u*I">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+        <field name="COMPONENT_SELECTOR">Label1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="@]/;/!}}_.KuHUaWEIn^">
+            <mutation>
+              <eventparam name="responseContent"></eventparam>
+            </mutation>
+            <field name="VAR">responseContent</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="GBB~v`$`=fS+!`C:-!~i" collapsed="true" x="30" y="-30">
     <mutation component_type="HorizontalArrangement" is_generic="false" instance_name="Horizontal_Arrangement4" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Horizontal_Arrangement4</field>
     <statement name="DO">
@@ -10,31 +29,105 @@
           <block type="component_method" id="@Ol/Fp.*Q]Sv(e5pAf#1">
             <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Web1"></mutation>
             <field name="COMPONENT_SELECTOR">Web1</field>
+            <next>
+              <block type="component_method" id="Q}]^DUxHTmFZ`0,ScKOF">
+                <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Speed"></mutation>
+                <field name="COMPONENT_SELECTOR">Speed</field>
+                <next>
+                  <block type="component_method" id="{!Q,0#8xt9!)Zj%9Q7h,">
+                    <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Pressure"></mutation>
+                    <field name="COMPONENT_SELECTOR">Pressure</field>
+                    <next>
+                      <block type="component_method" id=";eqT:j04tI/;h+oaGPZl">
+                        <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Location"></mutation>
+                        <field name="COMPONENT_SELECTOR">Location</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="2leC[B#d|lZ|AmQ?~^}J" collapsed="true" x="30" y="-30">
+  <block type="component_event" id="Sxj67YtS@+wcXNUu}!qk" collapsed="true" x="330" y="-30">
+    <mutation component_type="Web" is_generic="false" instance_name="Speed" event_name="GotText"></mutation>
+    <field name="COMPONENT_SELECTOR">Speed</field>
+    <statement name="DO">
+      <block type="component_set_get" id="|s~.-Ogr1xxpq=j=%f10">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="S1"></mutation>
+        <field name="COMPONENT_SELECTOR">S1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="~~u26T7u72,gwEo0Oy6]">
+            <mutation>
+              <eventparam name="responseContent"></eventparam>
+            </mutation>
+            <field name="VAR">responseContent</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="2leC[B#d|lZ|AmQ?~^}J" collapsed="true" x="30" y="-10">
     <mutation component_type="Form" is_generic="false" instance_name="Screen1" event_name="Initialize"></mutation>
     <field name="COMPONENT_SELECTOR">Screen1</field>
     <statement name="DO">
       <block type="component_method" id="1nfyw_eoeYJ,jgOR1Uti">
         <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Web1"></mutation>
         <field name="COMPONENT_SELECTOR">Web1</field>
+        <next>
+          <block type="component_method" id="/PO%~]@h,9t@p]Pz,r1f">
+            <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Speed"></mutation>
+            <field name="COMPONENT_SELECTOR">Speed</field>
+            <next>
+              <block type="component_method" id="[[F!{c)OHXZ6({!Zkrq*">
+                <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Pressure"></mutation>
+                <field name="COMPONENT_SELECTOR">Pressure</field>
+                <next>
+                  <block type="component_method" id="zHO|M3%^Vkj9L60Xl,l!">
+                    <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Location"></mutation>
+                    <field name="COMPONENT_SELECTOR">Location</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="q;$y8q:`K`Ep@tqB-r`y" collapsed="true" x="30" y="-10">
-    <mutation component_type="Web" is_generic="false" instance_name="Web1" event_name="GotText"></mutation>
-    <field name="COMPONENT_SELECTOR">Web1</field>
+  <block type="component_event" id="LU%_N_Qp]F1Z7yZQJtc/" collapsed="true" x="350" y="-10">
+    <mutation component_type="Web" is_generic="false" instance_name="Pressure" event_name="GotText"></mutation>
+    <field name="COMPONENT_SELECTOR">Pressure</field>
     <statement name="DO">
-      <block type="component_set_get" id="RG(*s:8pgNs+et{|,u*I">
-        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
-        <field name="COMPONENT_SELECTOR">Label1</field>
+      <block type="component_set_get" id="Ed8ZEBrF4ee0[N?ess`4">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="P1"></mutation>
+        <field name="COMPONENT_SELECTOR">P1</field>
         <field name="PROP">Text</field>
         <value name="VALUE">
-          <block type="lexical_variable_get" id="@]/;/!}}_.KuHUaWEIn^">
+          <block type="lexical_variable_get" id="!i!?:l[=mH!0~`[+D{v)">
+            <mutation>
+              <eventparam name="responseContent"></eventparam>
+            </mutation>
+            <field name="VAR">responseContent</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=";1F//()Dbb9l*:?M=y{W" collapsed="true" x="390" y="10">
+    <mutation component_type="Web" is_generic="false" instance_name="Location" event_name="GotText"></mutation>
+    <field name="COMPONENT_SELECTOR">Location</field>
+    <statement name="DO">
+      <block type="component_set_get" id="9pi{*CxF#fRTx!JYcXdq">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="L1"></mutation>
+        <field name="COMPONENT_SELECTOR">L1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="/PqFfb+tMLSQ/z-?W[Qd">
             <mutation>
               <eventparam name="responseContent"></eventparam>
             </mutation>
