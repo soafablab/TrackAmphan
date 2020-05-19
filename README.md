@@ -1,9 +1,13 @@
-# ⛈ TrackAmphan ⛈ `v1.1.0`
-<img src="assests/tl.png" height=100>
+# ⛈ TrackAmphan ⛈ `v1.2`
+<img src="assests/tl.png" height=100 alt="https://bit.ly/TrackAmphan">
 An Android based web-app which gives live information about the Severe Cyclonic Storm ‘AMPHAN’.
 
-*DOWNLOAD THE APP*: Check releases to download the latest version of app.
+[![h3](https://badgen.net/badge/Download/TrackAmphan/blue)](https://bit.ly/TrackAmphan)
 
+#### Updates
+- Check releases to download the latest version of app.
+- Latest App Release
+-- The app with v1.2 is released; Dtd: `20/05/2020`
 
 ## About App
 
@@ -19,9 +23,26 @@ An Android based web-app which gives live information about the Severe Cyclonic 
 - Twitter Feed. 📟 
 - Lite and consumes less space. 🚀
 - Eyecatching UI. 📲
+#### What's New
+-- Live Speed 🌫
+-- Live Pressure 🌀
+-- Live Location Status 📍
 
 ### Screenshots
-<img src="assests/home.jpg" height=400> <img src="assests/prone.jpg" height=400> <img src="assests/twitter.jpg" height=400> <img src="assests/about.jpg" height=400>
+- What's New
+<img src="assests/home.jpg" height=400> 
+
+--
+
+<img src="assests/prone.jpg" height=400> <img src="assests/twitter.jpg" height=400> <img src="assests/about.jpg" height=400>
 
 #### Layout Details
 <img src="assests/Layout Details.png" height=400>
+
+## Support developers 🌟
+- Give this repo a **STAR** 🌟 to encourage the developer to make more projects like this.
+
+[![h1](https://forthebadge.com/images/badges/built-for-android.svg)](https://bit.ly/TrackAmphan)       
+[![h2](https://badgen.net/badge/License/MIT/green)](https://bit.ly/TrackAmphan)
+
+`This project is made under SOA FAB LAB of Siksha 'O' Anusandhan University.`
